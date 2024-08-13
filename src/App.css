@@ -1,0 +1,23 @@
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+.input-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.main h1 {
+  color: blue;
+}
